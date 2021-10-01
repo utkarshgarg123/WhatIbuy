@@ -5,7 +5,7 @@
     width: 50%;
 }
 .product{
-    object-fit: cover;
+    object-fit:scale-down;
     height:300px;
     width:auto;
 }
