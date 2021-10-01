@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Hello, world!</title>
 </head>
 
@@ -58,18 +58,20 @@
     </nav>
 
     <div class="container-fluid p-2">
-        <h1 class="center">Akashay Kumar</h1>
-        <img id="product p-5" src="./images/celeb.png" style="width: auto; height: 350px;" class="center" alt="img not found">
-        <script>
-            var x = screen.availHeight;
-            x /=3
-            console.log(x);
-            document.getElementById("product").style.height = x;
-            console.log(document.getElementById("product").height);
-        </script>
+        <h1 style="text-align: center;">Akashay Kumar</h1>
     </div>
-    <div class="center">
-        <h1>Buy Products</h1>
+
+    <img id="product p-5" src="./images/celeb.png" style="width: auto; height: 350px;" class="center" alt="img not found">
+    <script>
+        var x = screen.availHeight;
+        x /= 3
+        console.log(x);
+        document.getElementById("product").style.height = x;
+        console.log(document.getElementById("product").height);
+    </script>
+    </div>
+    <div class="container-fluid bg-primary text-light pd-1">
+        <h1 style="text-align: center; padding: 10px;">Buy Products</h1>
     </div>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
@@ -93,7 +95,8 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./images/shoes.jpg" class="d-block center" alt="..." style="max-height: 200px; width:auto ; max-width :300px">
+                <img src="./images/shoes.jpg" class="d-block center" alt="..."
+                    style="max-height: 200px; width:auto ; max-width :300px">
                 <div class="carousel-caption" style="color: grey;">
                     <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
