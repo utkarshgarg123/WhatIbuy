@@ -4,3 +4,8 @@
     margin-right: auto;
     width: 50%;
 }
+.product{
+    object-fit: cover;
+    height:300px;
+    width:auto;
+}
